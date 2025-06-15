@@ -10,14 +10,19 @@ import Footer from './Components/Footer';
 import banner_men from './assets/Images/banner_mens.png'
 import banner_women from './assets/Images/banner_women.png'
 import banner_kid from './assets/Images/banner_kids.png'
+// import UseSnapShot from './Components/UseSnapShot';
+
+
 
 function App() {
 
+
   return (
     <>
+    
     <div className='w-full'>
     <BrowserRouter>
-
+  
       <Navbar />
 
       <Routes>
@@ -39,8 +44,10 @@ function App() {
       
       <Footer />
 
-    </BrowserRouter>
+     
 
+    </BrowserRouter>
+   
     </div>
     </>
   )

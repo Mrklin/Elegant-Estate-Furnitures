@@ -11,13 +11,13 @@ const ProductDisplay = (props) => {
     <div className='flex my-0 mx-36'> 
         <div className='flex gap-6'>
             <div className='flex flex-col gap-3 '>
-                <img className='h-[128px]' src={product.image} alt={`${product.name} product_image`} />
-                <img className='h-[128px]' src={product.image} alt={`${product.name} product_image`} />
-                <img className='h-[128px]' src={product.image} alt={`${product.name} product_image`} />
-                <img className='h-[128px]' src={product.image} alt={`${product.name} product_image`} />
+                <img className='h-[128px]' src={product.image} loading='lazy' alt={`${product.name} product_image`} />
+                <img className='h-[128px]' src={product.image} loading='lazy' alt={`${product.name} product_image`} />
+                <img className='h-[128px]' src={product.image} loading='lazy' alt={`${product.name} product_image`} />
+                <img className='h-[128px]' src={product.image} loading='lazy' alt={`${product.name} product_image`} />
             </div>
             <div className='w-[586px] h-[550px]'>
-                 <img className='h-[100%]' src={product.image} alt={`${product.name} product_image`} />
+                 <img className='h-[100%]' loading='lazy' src={product.image} alt={`${product.name} product_image`} />
             </div>
         </div>
 

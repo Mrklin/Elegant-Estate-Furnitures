@@ -4,11 +4,14 @@ import instagram_icon from '../assets/Images/instagram_icon.png'
 import pintester_icon from '../assets/Images/pintester_icon.png'
 import whatsapp_icon from '../assets/Images/whatsapp_icon.png'
 
+
 const Footer = () => {
+
+
   return (
     <div className='flex flex-col justify-center items-center gap-12'>
         <div className='flex items-center gap-5'>
-         <img src={footer_logo} alt='footer_logo' />
+         <img src={footer_logo} loading='lazy' alt='footer_logo' />
          <p className='text-[#383838] text-[46px] font-bold'>SHOPPER</p>
         </div>
         <ul className='list-none flex gap-12 text-[#252525] text-[20px]'>
